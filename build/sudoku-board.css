@@ -1,0 +1,18 @@
+#sudoku-board{
+    display: grid;
+    height: 80vh;
+    width: 80vh;
+    margin: 10vh auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid white;
+}
+.sudoku-board--region{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid white;
+}
+.sudoku-board--block{
+    border: 1px solid red;
+}

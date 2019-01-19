@@ -1,4 +1,5 @@
-import css from './style.css'
+import './style.css'
+import './sudoku-board.css'
 import 'materialize-css/dist/css/materialize.min.css'
 import 'materialize-css/dist/js/materialize.min.js'
 
