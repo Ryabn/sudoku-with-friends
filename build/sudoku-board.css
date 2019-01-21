@@ -1,8 +1,7 @@
 #sudoku-board{
     display: grid;
-    height: 80vh;
-    width: 80vh;
-    margin: 10vh auto;
+    height: 100%;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     border: 2px solid white;

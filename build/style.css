@@ -1,3 +1,14 @@
 body{
     background-color: #151515;
 }
+.sudoku-interface{
+    display: grid;
+    margin: 5vh 7.5vw 5vh 7.5vw;
+    grid-template-columns: 60vw 15vw;
+    grid-auto-rows: 90vh;
+    column-gap: 5vh;
+}
+.sudoku-controls{
+    height: 100%;
+    width: 100%;
+}
